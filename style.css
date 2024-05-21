@@ -1,0 +1,101 @@
+/*Body*/
+body{
+    margin-top: 10%;
+    background: linear-gradient(to right,#143757 ,#4a2f88);
+    zoom: 2;
+}
+/*Calculator*/
+.calculator{
+    background: linear-gradient(to right,#505458 ,#474058);
+    background-color: #196BCA;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: none;
+    padding: 20px;
+    border: 0px solid #000;
+    border-radius: 10px;
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+
+/*Result*/
+#result{
+   width: 90%;
+   padding: 20px;
+   text-align: left;
+   font-size: 18px;
+   margin: 0 auto;
+   border-radius: 10px;
+   border: 0px solid #000;
+   overflow: hidden;
+}
+
+/* Buttons */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+/* Number, Equal, and Decimal Class */
+.number, .equal, .decimal{
+    background: linear-gradient(to right,#196BCA ,#6433E0);
+    background-color: #196BCA;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: none;
+    padding: 14px 15px;
+    border: 0px solid #000;
+    border-radius: 10px;
+}
+.number span, .equal span, .decimal span{
+    margin-right: 15px;
+    width: 29px;
+    height: 29px;
+    transform: rotate(0deg);
+}
+.number:hover, .equal:hover, .decimal:hover{
+    background: linear-gradient(to right,#5482d0 ,#7d5ee3);
+    background-color: #5482d0;
+}
+.number:active, .equal:active, .decimal:active{
+    transform: scale(0.95);
+}
+
+/* Operator, and Clear Class */
+.operator, .clear {
+    background: linear-gradient(to right,#cac919 ,#33e0da);
+    background-color: #cac919;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: none;
+    padding: 14px 15px;
+    border: 0px solid #000;
+    border-radius: 10px;
+}
+.operator span, .clear span {
+    margin-right: 15px;
+    width: 29px;
+    height: 29px;
+    transform: rotate(0deg);
+}
+.operator:hover, .clear:hover {
+    background: linear-gradient(to right,#d0cf54 ,#5ee3de);
+    background-color: #d0cf54;
+}
+.operator:active, .clear:active{
+    transform: scale(0.95);
+}
